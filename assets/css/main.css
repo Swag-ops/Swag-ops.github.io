@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f0f0f0;
+		background-color:#000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1674,7 +1674,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #e8e8e8;
+		background:#000000;
 		width: 100%;
 		box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
 		border-radius: 4px;
@@ -1687,7 +1687,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f0f0f0;
+			background: #000000;
 		}
 
 	form textarea {
@@ -1904,7 +1904,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		position: relative;
-		background: #fff;
+		background: #000000;
 		text-align: center;
 	}
 
@@ -1915,9 +1915,9 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			font-family: 'Arvo';
+			font-family:"assetregular";
 			font-weight: 700;
-			color: #ed786a;
+			color:rgb(218,165,32);
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
@@ -1930,7 +1930,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color:rgb(218,165,32);
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -2703,3 +2703,39 @@ input, select, textarea {
 				}
 
 	}
+.img-gallery{
+	position:absolute;
+	display:block;
+	top:15%;
+	left:0;
+	width:100%;
+	
+}
+
+.img-gallery img{
+	
+	width:100%;
+	
+	
+}
+.column {
+  float: left;
+  width: 20%;
+  padding:0;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@font-face {
+    font-family: 'assetregular';
+    src: url('assets/webfonts/asset-regular-webfont.woff2') format('woff2'),
+         url('assets/webfonts/asset-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
