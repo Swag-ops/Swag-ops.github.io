@@ -1971,7 +1971,7 @@ input, select, textarea {
 					background: color:rgb(218,165,32);
 					color:rgb(218,165,32);
 					width: 2.25em;
-					font-size: 0.8em;
+					font-size: 1.5em;
 					height: 2.25em;
 					border-radius: 2.25em;
 					line-height: 2.1em;
@@ -2713,7 +2713,7 @@ input, select, textarea {
 
 .img-gallery img{
 	
-	width:100%;
+width:100%;
 	
 	
 }
@@ -2729,6 +2729,11 @@ input, select, textarea {
   clear: both;
   display: table;
 }
+
+.topnav{
+	float:left;
+}
+
 
 @font-face {
     font-family: 'assetregular';
